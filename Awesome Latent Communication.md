@@ -1,6 +1,6 @@
 <div align="center">
     <h1 style="display: inline-flex; align-items: center;">
-        <img src="figs/latent.png" alt="icon" style="width: 64px; height: 64px; margin-right: 1px;">
+        <img src="figs/latent.png" alt="icon" style="width: 64px; height: 64px; margin-right: 1px;"> 
 Awesome Latent Communication
     </h1>
 </div>
