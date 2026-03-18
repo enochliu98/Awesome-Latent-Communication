@@ -94,7 +94,7 @@ In latent communication, the information exchanged between agents can take diver
 | **KV-Cache**      |            |        |              |         | ✅          | ✅                  | ✅             |                 |
 
 
-##### 3.1.2 Others
+##### 3.1.2 Others 
 
 After identifying the type of communicated information, it is also necessary to specify which information is transmitted. This involves determining:
 
