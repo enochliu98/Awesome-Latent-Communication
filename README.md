@@ -18,6 +18,7 @@ This repository manually collects works in **latent communication**, which will 
 
 ## Updates
 
+- 2026-04-16: 🚀 Added **Q-KVComm**, **LRAgent**, **RelayCaching**, **Vision Wormhole**, **Agent Primitives**, **Agent Memory**, **Edge LLM Handover** and more!
 - 2026-02-07: 🚀 Latent Communication Repo launched!
 
 ## Content
@@ -206,3 +207,12 @@ As a research direction closely related to Latent Communication, Latent CoT has 
 | 2025/10 | **ThoughtComm**：Thought Communication in Multiagent Collaboration https://arxiv.org/pdf/2510.20733 | ![](figs/r7.png) | |
 | 2025/05 | **AC**:Communicating Activations Between Language Model Agents https://arxiv.org/pdf/2501.14082v1 |![](figs/r8.png) | |
 | 2026/01 | MIXTURE OF THOUGHTS: LEARNING TO AGGREGATEWHAT EXPERTS THINK, NOT JUST WHAT THEY SAY https://arxiv.org/pdf/2509.21164 |![](figs/r9.png) | [Code](https://github.com/jacobfa/mot) |
+| 2025/11 | **Q-KVComm**: Efficient Multi-Agent Communication Via Adaptive KV Cache Compression https://arxiv.org/pdf/2512.17914 | An efficient protocol enabling direct transmission of compressed KV cache representations between LLM agents, achieving 5-6x compression while maintaining semantic fidelity. | |
+| 2026/02 | **LRAgent**: Efficient KV Cache Sharing for Multi-LoRA LLM Agents https://arxiv.org/abs/2602.01053 | Proposes decomposed KV cache sharing for multi-LoRA agents, reducing memory overhead by sharing base components and storing adapter components in low-rank form. | |
+| 2026/02 | **RelayCaching**: Accelerating LLM Collaboration via Decoding KV Cache Reuse https://arxiv.org/abs/2603.13289 | Training-free method that reuses decoding phase KV caches from previous agents in subsequent prefill phases, achieving 80%+ reuse and up to 4.7x TTFT reduction. | |
+| 2026/02 | **Vision Wormhole**: Latent-Space Communication in Heterogeneous Multi-Agent Systems https://arxiv.org/abs/2602.15382 | Enables model-agnostic communication by repurposing VLM's visual interface as a universal port for inter-agent latent communication, reducing pairwise alignment complexity from O(N²) to O(N). | [Code](https://github.com/xz-liu/heterogeneous-latent-mas) |
+| 2026/02 | **Agent Primitives**: Reusable Latent Building Blocks for Multi-Agent Systems https://arxiv.org/abs/2602.03695 | Introduces reusable latent building blocks to address task-specific complexity and error accumulation in long-context multi-stage interactions. | |
+| 2026/02 | **Agent Memory**: Persistent Q4 KV Cache for Multi-Agent LLM Inference on Edge Devices https://arxiv.org/abs/2603.04428 | Persists agent KV caches to disk in 4-bit quantized format for edge devices, reducing TTFT by up to 136x through direct cache restoration. | [Code](https://github.com/yshk-mxim/agent-memory) |
+| 2026/02 | **Five Ws of Multi-Agent Communication**: A Comprehensive Survey from MARL to Emergent Language and LLMs https://arxiv.org/abs/2602.11583 | Reviews multi-agent communication through the Five Ws framework (who, whom, when, what, why), connecting MARL, emergent language, and LLM-based systems. | |
+| 2026/03 | **Edge LLM Handover**: Low-Latency Edge LLM Handover via Joint KV Cache Transfer and Token Prefill https://arxiv.org/abs/2603.28018 | Jointly optimizes prefill length and KV cache delivery scheduling for seamless LLM service handover between edge servers. | |
+| 2026/03 | **BIGMAS**: Brain-Inspired Graph Multi-Agent Systems for LLM Reasoning https://arxiv.org/abs/2603.15371 | Organizes specialized LLM agents as nodes in a dynamically constructed directed graph with centralized shared workspace coordination. | |
